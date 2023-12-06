@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  padding: 10px;
+  background-color: #333;
+}
+
+.navbar button {
+  margin: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.hex-clock {
+  font-size: 3em;
+  margin: 50px 0;
+}
+
+.timer-settings {
+  display: none;
+  margin-top: 20px;
+}
+
+.timer-settings input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.timer-settings button {
+  padding: 5px;
+  cursor: pointer;
+}
+

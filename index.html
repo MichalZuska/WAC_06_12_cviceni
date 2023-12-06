@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hex Clock with Timer</title>
+</head>
+<body>
+<div class="navbar">
+    <button onclick="openTimerSettings()">Nastavení timeru</button>
+    <button onclick="cancelTimer()">Zrušit timer</button>
+</div>
+<div id="hexClock" class="hex-clock"></div>
+
+<div id="timerSettings" class="timer-settings">
+    <input type="number" id="timerInput" placeholder="Zadejte čas (v sekundách)">
+    <button onclick="setTimer()">Nastavit timer</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
